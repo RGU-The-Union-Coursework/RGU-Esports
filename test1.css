@@ -1,0 +1,163 @@
+.yellow_1{
+    width: 200px;
+    height: 450px;
+    position: absolute;
+    bottom: 30px;
+    left: 250px;
+    top: 250px
+}
+.lol{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    bottom: 30px;
+    left: 300px;
+    top: 250px;
+}
+.yellow_2{
+    width: 200px;
+    height: 450px;
+    position: absolute;
+    bottom: 30px;
+    left: 550px;
+    top: 250px;
+}
+
+.lol2{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    bottom: 30px;
+    left: 600px;
+    top: 250px;
+}
+.yellow_3{
+    width: 200px;
+    height: 450px;
+    position: absolute;
+    bottom: 30px;
+    left: 900px;
+    top: 250px;
+}
+.lol3{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    bottom: 30px;
+    left: 950px;
+    top: 250px;
+}
+.yellow_4{
+    width: 200px;
+    height: 450px;
+    position: absolute;
+    bottom: 30px;
+    left: 1200px;
+    top: 250px;
+}
+.lol4{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    bottom: 30px;
+    left: 1250px;
+    top: 250px;
+}
+html {
+    margin: 0;
+  }
+
+
+  /* 31, 29, 29 */
+body {
+
+background-color: rgb(31, 29, 29);
+margin: 0;
+
+}
+
+
+nav {
+
+width: 100%;
+overflow: auto;
+background-color:rgb(113, 33, 119);
+}
+
+
+ul {
+    
+  margin: 0 0 0 40px;
+    list-style-type: none;
+    padding: 0px;
+    overflow: hidden;
+    background-color: rgb(113, 33, 119);
+   
+
+  }
+
+li {
+    float: left;
+  }
+  
+  li a {
+   margin-left:20px;
+    display: block;
+    color: white;
+    text-align: center;
+    padding:15px;
+    text-decoration: none;
+    border-radius: 8px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+  }
+
+.logo {
+
+  position: absolute;
+ 
+  margin-right:15px;
+  width: 50px;
+  height: auto;
+
+
+}
+
+
+ 
+  li a:hover {
+    background-color:rgb(75, 22, 78);
+    border-color:white;
+  }
+
+  .TEXT{
+    width: 200px;
+    height: 300px;
+    position: absolute;
+    bottom: 30px;
+    left: 250px;
+    top: 400px
+  }
+  .TEXT2{
+    width: 200px;
+    height: 300px;
+    position: absolute;
+    bottom: 30px;
+    left: 550px;
+    top: 400px
+  }
+  .TEXT3{
+    width: 200px;
+    height: 300px;
+    position: absolute;
+    bottom: 30px;
+    left: 900px;
+    top: 400px
+  }
+  .TEXT4{
+    width: 200px;
+    height: 300px;
+    position: absolute;
+    bottom: 30px;
+    left: 1200px;
+    top: 400px
+  }
