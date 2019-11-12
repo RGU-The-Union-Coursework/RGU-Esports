@@ -1,0 +1,95 @@
+html {
+    margin: 0;
+  }
+
+
+  /* 31, 29, 29 */
+body {
+background-color: rgb(31, 29, 29);
+margin: 0;
+}
+
+
+nav {
+width: 100%;
+overflow: auto;
+ background-image: url("glitter.png");
+}
+
+
+ul {  
+  margin: 0 0 0 0px;
+    list-style-type: none;
+    padding: 0px;
+    overflow: hidden;
+    background-color: rgb(113, 33, 119);
+  
+  }
+  
+
+li {
+    float: left;
+  }
+  
+  li a {
+   margin-left:20px;
+    display: block;
+    color: white;
+    text-align: center;
+    padding:10px;
+    text-decoration: none;
+    border-radius: 8px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+  }
+
+.logo {
+  position: absolute;
+  
+  margin-right:15px;
+  width: 50px;
+  height: auto;
+}
+
+
+ 
+  li a:hover {
+    background-color:rgb(75, 22, 78);
+    border-color:white;
+  }
+
+  * {
+    box-sizing: border-box;
+  }
+
+  .column {
+    float: left;        
+    padding: 10px;
+    height: 600px;
+  }
+
+  .left, .right {
+    width: 25%;
+    background-color: rgb(113, 33, 119);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+  }
+
+  .middle {
+    width: 50%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-image: url(red3.jpg);
+    color: white;
+  }
+
+  .row:after {
+   content: "";
+   display: table;
+   clear: both;
+  }
+
+  .title {
+     color: white;
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+
+
