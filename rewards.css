@@ -1,0 +1,94 @@
+html {
+    margin: 0;
+  }
+
+
+  /* 31, 29, 29 */
+body {
+background-color: rgb(31, 29, 29);
+margin: 0;
+}
+
+
+nav {
+width: 100%;
+overflow: auto;
+ background-image: url("glitter.png");
+}
+
+
+ul {  
+  margin: 0 0 0 0px;
+    list-style-type: none;
+    padding: 0px;
+    overflow: hidden;
+    background-color: rgb(113, 33, 119);
+  
+  }
+  
+
+li {
+    float: left;
+  }
+  
+  li a {
+   margin-left:20px;
+    display: block;
+    color: white;
+    text-align: center;
+    padding:10px;
+    text-decoration: none;
+    border-radius: 8px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+  }
+
+.logo {
+  position: absolute;
+ 
+  margin-right:15px;
+  width: 50px;
+  height: auto;
+}
+
+
+ 
+  li a:hover {
+    background-color:rgb(75, 22, 78);
+    border-color:white;
+  }
+
+  body {
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    text-align: left;      
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    color: white;
+}
+
+.column {
+  float: left;
+  width: 40%;
+  padding: 10%;
+  height: 50%;
+  background-color:black;
+  border-style: solid;
+  border-width: 5px;
+  border-left-width: 10%;
+  border-right-width: 10%;
+  border-color: purple;
+  color: goldenrod;
+  position: absolute;
+  left: 50%;
+  top: 45%;
+  transform: translate(-50%, -40%);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  text-align: center;  
+}
+
+ 
+
+
