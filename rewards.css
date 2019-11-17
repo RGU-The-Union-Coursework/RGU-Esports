@@ -10,8 +10,6 @@ margin: 0;
 }
 
 
-
-
 nav {
 
 width: 100%;
@@ -63,6 +61,8 @@ li {
     background-color:rgb(75, 22, 78);
     border-color:white;
   }
+
+
 
   body {
     background-repeat: no-repeat;
