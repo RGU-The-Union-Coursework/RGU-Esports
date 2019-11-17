@@ -69,6 +69,12 @@ h2 {
      font-family: Verdana, Geneva, Tahoma, sans-serif;   
 }
 
+.column {
+    float: left;
+    padding: 10px;
+    height: 800px; /* Should be removed. Only for demonstration */
+  }
+
 
 .row:after {
     content: "";
