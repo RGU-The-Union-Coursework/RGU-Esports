@@ -64,7 +64,7 @@ li {
     border-color:white;
   }
 
-body {
+h3 {
 
     background-repeat: no-repeat;
 
@@ -80,6 +80,19 @@ body {
 
     color: white;
 
+}
+
+
+h1{
+  font-family: Verdana;
+  color: white;
+}
+
+
+
+h5{
+  font-family: Verdana;
+  color: white;
 }
 
 
