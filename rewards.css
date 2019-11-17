@@ -21,9 +21,10 @@ margin: 0;
 }
 
 nav {
+
 width: 100%;
 overflow: auto;
- background-image: url("glitter.png");
+background-color:rgb(113, 33, 119);
 }
 
 
