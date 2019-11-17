@@ -70,6 +70,13 @@ h2 {
 }
 
 
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+
 .middle {
     
 width:50%;
