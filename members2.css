@@ -1,3 +1,4 @@
+*/ this is the css code for the navigation bar */
 html {
     margin: 0;
   }
@@ -63,7 +64,7 @@ li {
     background-color:rgb(75, 22, 78);
     border-color:white;
   }
-
+*/ below is the code for the image pages and the text for the rest of the page */
   .TEXT{
     width: 200px;
     height: 300px;
