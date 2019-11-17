@@ -1,4 +1,3 @@
-*/ these are the css codes for each picture for the separate columns for each game */
 .yellow_1{
     width: 200px;
     height: 450px;
@@ -64,7 +63,6 @@
     left: 1250px;
     top: 250px;
 }
-*/ this is the css code for the navigation bar */
 html {
     margin: 0;
   }
