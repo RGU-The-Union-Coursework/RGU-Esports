@@ -58,12 +58,100 @@
      <!--ConfirmPassword --> <input type="date" id="dateofBirth"><br>
 
 
-       <!--Submission Button-->  <input type="submit">
+     <!--Submit Button -->
+     <button type = "button" onclick="RegisterSubmit()">Register</button>
     </form>
 
 
 </div>
 
+
+
+
+  <script>
+
+function RegisterSubmit() {
+
+var user = document.getElementById("Username").value;
+var mail = document.getElementById("email").value;
+var pass = document.getElementById("password").value;
+var conPass = document.getElementById("ConfirmPassword").value;
+var dateBirth = document.getElementById("dateofBirth").value;
+
+var output = ""
+
+// output = user + "\n";
+// output += mail + "\n"
+// output += pass + "\n";
+// output += conPass + "\n";
+// output += dateBirth + "\n";
+
+output +=checkEmpty(user,"Username")
+output +=checkEmpty(mail,"email")
+output +=checkEmpty(pass,"password")
+output +=checkEmpty(conPass,"ConfirmPassword")
+output +=checkEmpty(dateBirth,"dateofBirth")
+
+if (output !== "") {
+
+alert(output)
+
+}
+else{
+
+  if (sameInput(pass,conPass,"password","ConfirmPassword") == true) {
+
+
+  alert("Registration Complete")
+  //window.location.replace("index.html")
+}
+else{
+
+alert("Password and Confirm Password are not the same")
+
+}
+}
+
+
+
+
+}
+
+function checkEmpty(inputValue,inputName) {
+
+if (inputValue == "") {
+
+ "Empty Variable: " + inputName
+document.getElementById(inputName).style = " border-bottom: 5px solid #751a1a"
+return "Empty Variable: " + inputName + "\n"
+}
+else {
+
+  document.getElementById(inputName).style = " border-bottom: 5px solid rgb(113, 33, 119)"
+return ""
+}
+
+}
+
+function sameInput(input1,input2,inputName1,inputName2) {
+
+if (input1 == input2) {
+
+
+  return true
+
+}
+else {
+document.getElementById(inputName1).style = " border-bottom: 5px solid #751a1a"
+document.getElementById(inputName2).style = " border-bottom: 5px solid #751a1a"
+  return false
+}
+
+
+}
+
+
+</script>
 
 </body>
 </html>
