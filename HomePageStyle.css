@@ -93,5 +93,7 @@ p{
 .introVideo{
   position:absolute;
   left:560px; 
-  padding:5px;   
+  padding:50px;  
+  border-style: solid;
+  border-color: rgb(113, 33, 119)
 }
