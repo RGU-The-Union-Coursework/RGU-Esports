@@ -71,8 +71,8 @@ h2 {
 
 .column {
     float: left;
-    padding: 10px;
-    height: 800px; /* Should be removed. Only for demonstration */
+    padding: 5%;
+    height:30%; /* Should be removed. Only for demonstration */
   }
 
 
