@@ -9,6 +9,16 @@ background-color: rgb(31, 29, 29);
 margin: 0;
 }
 
+.logo {
+
+  position: absolute;
+ 
+  margin-right:15px;
+  width: 50px;
+  height: auto;
+
+
+}
 
 nav {
 width: 100%;
