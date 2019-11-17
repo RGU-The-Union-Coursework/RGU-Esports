@@ -71,7 +71,7 @@ h2 {
 
 .column {
     float: left;
-    padding: 5%;
+    
     height:30%; /* Should be removed. Only for demonstration */
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: white;
