@@ -91,7 +91,7 @@ p{
 
 
 .introVideo{
-    
-  left:35%;   
+  position:absolute;
+  left:550px;   
     
 }
