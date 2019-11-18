@@ -94,4 +94,9 @@ p{
   position:absolute;
   left:400px; 
   padding:50px;  
+  background-color:rgba(137, 42, 156, 0.219);
+  position: absolute;
+  top: 35%;
+  left:35%;
+  width:25%;    
 }
