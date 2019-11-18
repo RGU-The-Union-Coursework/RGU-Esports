@@ -91,12 +91,13 @@ p{
 
 
 .introVideo{
-  position:absolute;
+    position:absolute;
   left:400px; 
-  padding:50px;  
-  background-color:rgba(137, 42, 156, 0.219);
+  padding:5px;  
+  background-color:rgba(137, 42, 156, 1);
   position: absolute;
-  top: 85%;
-  left:35%;
-  width:50%;    
+  top: 1175px;
+  left:375px;
+  width:800px;
+  height:300px; 
 }
