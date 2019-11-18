@@ -66,6 +66,8 @@ li {
 
 .column {
   float: left;
+  color:white;
+  font-family:Verdana, Geneva, Tahoma, sans-serif; 
   background-color: rgb(113, 33, 119);
   margin-left: 150px;
   margin-top: 150px;
