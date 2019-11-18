@@ -1,7 +1,7 @@
 # RGU-Esports
-Members:__
-Kyle Jones (Home, Contact Us)__
-George Vafeidis (Games, Members)__
-Michael Morrison (Login,Sign Up)__
-Adam Loney (Events,Histroy)__
+Members:<br />
+Kyle Jones (Home, Contact Us)<br />
+George Vafeidis (Games, Members)<br />
+Michael Morrison (Login,Sign Up)<br />
+Adam Loney (Events,Histroy)<br />
 David Jones (Trophys,Sponsors)
